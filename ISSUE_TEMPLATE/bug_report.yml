@@ -1,0 +1,24 @@
+name: Bug report
+description: Something doesn't work as documented. Tier 1.
+labels: ["kind/bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What you expected instead
+      description: This becomes the acceptance criterion.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Failing test
+      description: File and test name that fails today, if you can name one. Optional; a maintainer adds it before the issue is ready.

@@ -1,0 +1,19 @@
+name: Change proposal
+description: A small change to something that exists (tier 2). Acts as a mini design doc and needs human approval.
+labels: ["kind/proposal"]
+body:
+  - type: textarea
+    attributes:
+      label: Why
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What changes
+      description: Added, modified and removed requirements.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Impact
+      description: What else this touches.

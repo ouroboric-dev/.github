@@ -1,0 +1,34 @@
+name: Task
+description: A fix or chore, or one task of a plan. Must pass the Definition of Ready before work starts.
+labels: ["kind/task"]
+body:
+  - type: textarea
+    attributes:
+      label: Acceptance criteria
+      description: Testable checkboxes.
+      value: "- [ ] "
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Named test
+      description: File and test name that will prove it.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Layer
+      description: Which repository (leaf) the change lands in.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Size
+      description: S under 100 changed lines, M 100 to 400. L means split it.
+      options: ["S", "M", "L"]
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Depends on
+      description: Issue numbers, if any.

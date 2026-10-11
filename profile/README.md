@@ -1,4 +1,4 @@
-# Ouroboric
+<img alt="Ouroboric: a carved snake biting its orange tail, the wordmark OUROBORIC.DEV and the same name in runes" src="https://raw.githubusercontent.com/ouroboric-dev/ouroboric/main/docs/7-branding/identity/logo/ouroboric-banner-dark.svg" width="100%">
 
 **Open factories that improve themselves.** Ouroboric builds factories for software and companies,
 and in time research and art, where agents do the work, people steer, and every run makes the

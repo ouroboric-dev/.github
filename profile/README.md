@@ -4,7 +4,10 @@
 and in time research and art, where agents do the work, people steer, and every run makes the
 factory measurably better.
 
-![Ouroboric map: the operator approves direction in Asgard, the company factory, which runs on Yggdrasil, the software factory; together they kickstart and build companies and products, whose lessons and benchmarks feed back](https://raw.githubusercontent.com/ouroboric-dev/ouroboric/main/docs/assets/diagrams/rendered/ouroboric-map.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ouroboric-dev/ouroboric/main/docs/assets/diagrams/rendered/ouroboric-map.dark.svg">
+  <img alt="Ouroboric map: the operator approves direction in Asgard, the company factory, which runs on Yggdrasil, the software factory; together they kickstart and build companies and products, whose lessons and benchmarks feed back" src="https://raw.githubusercontent.com/ouroboric-dev/ouroboric/main/docs/assets/diagrams/rendered/ouroboric-map.svg">
+</picture>
 
 | Repository | What it is |
 |---|---|

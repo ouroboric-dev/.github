@@ -13,3 +13,5 @@ project. Keep this repository small, change it rarely, and have a human review e
 
 Company documents, standards and the journal live in
 [ouroboric](https://github.com/ouroboric-dev/ouroboric), not here.
+
+Run `uvx pre-commit install` once after cloning, so `gitleaks` checks each commit for secrets.

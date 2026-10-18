@@ -21,4 +21,5 @@ body:
   - type: input
     attributes:
       label: Failing test
-      description: File and test name that fails today, if you can name one. Optional; a maintainer adds it before the issue is ready.
+      description: File and test name that fails today, if you can name one.
+        Optional; a maintainer adds it before the issue is ready.

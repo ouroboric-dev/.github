@@ -1,10 +1,10 @@
 ## Task
 
-Closes #<issue> — task id: <plan>-T<nnn>
+Closes #`<issue>` — task id: `<plan>-T<nnn>`
 
 ## Proof
 
-- Named test: <file and test name> (fails on the parent commit, passes here)
+- Named test: `<file and test name>` (fails on the parent commit, passes here)
 
 ## Checklist
 
